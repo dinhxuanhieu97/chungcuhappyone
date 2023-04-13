@@ -1,0 +1,64 @@
+table.contactfixed_tablesetting,
+table.contactfixed_tablesetting input[type="text"] {
+  width: 100%;
+  max-width: 100%;
+}
+table.contactfixed_tablesetting tr:nth-child(odd) {
+  background-color: #fff;
+}
+table.contactfixed_tablesetting tr {
+  border-bottom: 1px solid #ddd;
+}
+table.contactfixed_tablesetting th {
+  padding: 10px;
+}
+table.contactfixed_tablesetting td {
+  padding: 8px 8px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.svl-upload-image {
+  width: 100%;
+  max-width: 500px;
+}
+.svl-upload-image img {
+  max-width: 100%;
+  height: auto;
+  background-color: #f1f1f1;
+  padding: 5px;
+}
+.view-has-value {
+  display: none;
+  position: relative;
+}
+
+.has-image .view-has-value {
+  display: inline-block;
+}
+
+.hidden-has-value {
+  display: block;
+}
+
+.has-image .hidden-has-value {
+  display: none;
+}
+
+a.svl-delete-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  background: #000;
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+table.contactfixed_tablesetting tr td:nth-child(1),
+table.contactfixed_tablesetting tr th:nth-child(1) {
+  width: 80px;
+}

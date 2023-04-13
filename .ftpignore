@@ -1,0 +1,62 @@
+.ftpconfig
+.ftpconfig.cson
+.ftpignore
+id_rsa
+.DS_Store
+.git
+happy-one-central-360/
+happy-one-thanh-loc/
+happyone-central.zip
+hpo-2906-nomusic.zip
+# ignore everything in the root except the "wp-content" directory.
+!wp-content/
+dist/
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins", "plugins", "themes" directory
+plugins/advanced-custom-fields-pro
+plugins/tawkto-live-chat
+plugins/contact-form-7
+plugins/easy-table-of-contents
+plugins/easy-wp-smtp
+plugins/litespeed-cache
+plugins/seo-by-rank-math
+plugins/mailchimp-for-wp
+plugins/tinymce-advanced
+.vscode
+# ignore these plugins
+vendor
+!wordpress/uploads/
+wordpress
+# ignore node dependency directories
+node_modules
+
+# ignore log files and databases
+*.log
+*.sqlite
+
+# lock files
+wp-content/themes/HAPPYONE/yarn.lock
+wp-content/themes/HAPPYONE/package-lock.json
+composer.lock
+
+# Logs
+logs
+*.log
+npm-debug.log*
+package-lock.json
+
+# node-waf configuration
+.lock-wscript
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Jest Coverage
+coverage
+
+.history/
+package-lock.json
+uploads/
